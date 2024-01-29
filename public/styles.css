@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+::selection {
+    background-color: transparent;
+    color: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url('cursor.png'), default;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    font-family: "Spinnaker", sans-serif;
+    background: #14191E;
+    color: #E3E3E3;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+#github-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D0D0D0;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+#github-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
